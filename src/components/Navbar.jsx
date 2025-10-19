@@ -17,8 +17,6 @@ export default function Navbar({ data }) {
 
   // ✅ Dynamic links
   const links = [];
-  if (data.hero) links.push({ href: "hero", label: "Hero" });
-  if (data.about) links.push({ href: "about", label: "About" });
   if (data.skills) links.push({ href: "skills", label: "Skills" });
   if (data.projects) links.push({ href: "projects", label: "Projects" });
   if (data.services) links.push({ href: "services", label: "Services" });

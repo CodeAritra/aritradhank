@@ -62,7 +62,7 @@ function App() {
               transition={{ duration: 0.4 }}
             >
               <Hero data={data.hero} />
-              <About data={data.about} />
+              {/* <About data={data.about} /> */}
               {data.services && <Services services={data.services} />}
               {data.skills && <Skills skills={data.skills} />}
               {data.projects && <Project projects={data.projects} />}

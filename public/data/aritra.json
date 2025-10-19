@@ -1,46 +1,58 @@
 {
   "hero": {
     "title": "Aritra Dhank",
-    "subtitle": "Full Stack Developer",
-    "description": "I build scalable web apps with React, Node.js and MongoDB. Currently building realtime and cloud-native systems.",
-    "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1200&q=80",
-    "cta": { "label": "Resume", "href": "projects" }
+    "subtitle": "Full Stack Developer | MERN Stack",
+    "description": "Passionate about building scalable web applications using React, Node.js, Express, and MongoDB. Exploring real-time and AI-powered systems.",
+    "image": "/profile.jpg",
+    "cta": { "label": "View Resume", "href": "/ARITRA DHANK RESUME.pdf" }
   },
   "about": {
-    "text": "I'm a CS student focusing on full-stack development & distributed systems. I love building performant, maintainable products.",
+    "text": "I'm a Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning at MCKV Institute of Engineering (CGPA: 8.9). I focus on full-stack development, cloud deployments, and building high-performance, maintainable systems.",
     "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1000&q=80"
   },
   "skills": [
-    { "title": "Web Apps", "desc": "React + Node + MongoDB", "icon": "💻" },
-    { "title": "Real-time", "desc": "Socket.IO, WebRTC", "icon": "⚡" },
-    { "title": "Cloud", "desc": "Deployments & CI/CD", "icon": "☁️" }
+    {
+      "title": "Frontend",
+      "desc": "React.js, HTML, CSS, JavaScript, Tailwind CSS",
+      "icon": "🎨"
+    },
+    {
+      "title": "Backend",
+      "desc": "Node.js, Express.js, REST APIs, JWT Auth",
+      "icon": "⚙️"
+    },
+    { "title": "Database", "desc": "MongoDB, MySQL", "icon": "🗄️" },
+    {
+      "title": "Real-time Systems",
+      "desc": "Socket.IO, WebSockets",
+      "icon": "⚡"
+    },
+    {
+      "title": "Cloud & Tools",
+      "desc": "Render, Git, Firebase, Razorpay Integration",
+      "icon": "☁️"
+    }
   ],
   "projects": [
     {
-      "title": "Chat App",
-      "category": "Realtime",
-      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1000&q=80",
-      "link": "https://github.com/aritra/chat-app"
-    },
-    {
-      "title": "E-commerce",
-      "category": "Full-stack",
-      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1000&q=80",
-      "link": "https://github.com/aritra/ecommerce"
-    },
-    {
       "title": "Attendance Tracker",
-      "category": "MERN",
+      "category": "Full-stack | JWT Auth",
       "image": "https://www.lystloc.com/blog/wp-content/uploads/2023/09/Why-Lystloc-is-the-best-employee-attendance-tracker-in-India.webp",
-      "link": "https://github.com/aritra/attendance-tracker"
+      "githublink": "https://github.com/CodeAritra/attendance_tracker",
+      "livelink": "https://attendance-tracker-c86g.onrender.com/"
+    },
+    {
+      "title": "Online Book Store",
+      "category": "Full-stack | Role-based Access",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1000&q=80",
+      "githublink": "https://github.com/CodeAritra/BOOK-STORE",
+      "livelink": "https://book-store-jw66.onrender.com/"
     }
   ],
-
   "contact": {
-    "instagram": "https://instagram.com/yourprofile",
-    "facebook": "https://facebook.com/yourprofile",
-    "gmail": "yourmail@gmail.com",
-    "linkedin": "https://linkedin.com/in/yourprofile"
+    "gmail": "aritradhank21@gmail.com",
+    "github": "https://github.com/CodeAritra",
+    "linkedin": "https://linkedin.com/in/aritra-dhank"
   },
   "layoutVariant": "grid"
 }

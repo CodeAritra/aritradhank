@@ -33,6 +33,7 @@ export default function Hero({ data }) {
           {data.cta && (
             <a
               href={data.cta.href}
+              target="_blank"
               className="inline-block mt-6 px-5 py-3 rounded-full bg-gradient-to-r 
             from-pink-500 to-indigo-500 text-white font-medium shadow-lg 
             hover:opacity-90 transition text-sm sm:text-base"
@@ -45,7 +46,7 @@ export default function Hero({ data }) {
           <img
             src={data.image}
             alt="hero"
-            className="rounded-xl shadow-xl object-cover w-full h-56 sm:h-72 md:h-80 lg:h-96"
+            className="rounded-xl shadow-xl object-cover w-full h-56 sm:h-72 md:h-80 lg:h-96 "
           />
         </motion.div>
       </motion.div>

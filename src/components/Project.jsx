@@ -19,7 +19,7 @@ export default function Project({ projects }) {
               initial={{ scale: 0.8, opacity: 0 }}
               whileInView={{ scale: 1, opacity: 1 }}
               transition={{ duration: 0.6 }}
-              whileHover={{ scale: 1.03 }}
+              whileHover={{ scale: 1 }}
               className="card bg-base-100  hover:shadow-2xl transition"
             >
               {/* Image */}
@@ -35,10 +35,26 @@ export default function Project({ projects }) {
               <div className="card-body text-center">
                 <h4 className="card-title justify-center">{it.title}</h4>
                 <p className="text-sm opacity-80">{it.category}</p>
-                <div className="card-actions justify-center mt-3">
-                  <button className="btn btn-primary btn-sm">
-                    View Project
-                  </button>
+                <div className="card-actions justify-center mt-3 flex gap-3">
+                  {it.githublink && (<motion.button
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                    className="btn btn-primary btn-sm"
+                    onClick={() => window.open(it.githublink, "_blank")}
+                  >
+                    GitHub
+                  </motion.button>)}
+
+                  {it.livelink && (
+                    <motion.button
+                      whileHover={{ scale: 1.1 }}
+                      whileTap={{ scale: 0.9 }}
+                      className="btn btn-primary btn-sm"
+                      onClick={() => window.open(it.livelink, "_blank")}
+                    >
+                      Live Link
+                    </motion.button>
+                  )}
                 </div>
               </div>
             </motion.div>

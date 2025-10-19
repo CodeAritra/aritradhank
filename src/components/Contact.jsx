@@ -4,6 +4,7 @@ import {
   FaFacebook,
   FaEnvelope,
   FaLinkedin,
+  FaGithub,
 } from "react-icons/fa";
 import Section from "./Section";
 
@@ -12,9 +13,12 @@ export default function Contact({ data }) {
 
   return (
     <Section id="contact" className="py-20 ">
-      <motion.div initial={{ scale: 0.8, opacity: 0 }}
-        whileInView={{scale: 1, opacity: 1 }}
-        transition={{ duration: 0.6 }} className=" text-center bg-base-100 p-9 rounded-xl shadow-xl ">
+      <motion.div
+        initial={{ scale: 0.8, opacity: 0 }}
+        whileInView={{ scale: 1, opacity: 1 }}
+        transition={{ duration: 0.6 }}
+        className=" text-center bg-base-100 p-9 rounded-xl shadow-xl "
+      >
         <h2 className="text-3xl font-bold mb-8">Get in Touch</h2>
 
         <div className="flex justify-center gap-6 flex-wrap">
@@ -61,6 +65,17 @@ export default function Contact({ data }) {
               className="btn btn-circle btn-outline text-blue-700 hover:bg-blue-700 hover:text-white text-2xl"
             >
               <FaLinkedin />
+            </motion.a>
+          )}
+          {data.github && (
+            <motion.a
+              href={data.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.2 }}
+              className="btn btn-circle btn-outline text-black hover:bg-black hover:text-white text-2xl"
+            >
+              <FaGithub />
             </motion.a>
           )}
         </div>
