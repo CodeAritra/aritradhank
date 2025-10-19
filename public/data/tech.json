@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "title": "Aritra Dhank",
+    "subtitle": "Full Stack Developer",
+    "description": "I build scalable web apps with React, Node.js and MongoDB. Currently building realtime and cloud-native systems.",
+    "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1200&q=80",
+    "cta": { "label": "Resume", "href": "projects" }
+  },
+  "about": {
+    "text": "I'm a CS student focusing on full-stack development & distributed systems. I love building performant, maintainable products.",
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=1000&q=80"
+  },
+  "skills": [
+    { "title": "Web Apps", "desc": "React + Node + MongoDB", "icon": "💻" },
+    { "title": "Real-time", "desc": "Socket.IO, WebRTC", "icon": "⚡" },
+    { "title": "Cloud", "desc": "Deployments & CI/CD", "icon": "☁️" }
+  ],
+  "projects": [
+    {
+      "title": "Chat App",
+      "category": "Realtime",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1000&q=80",
+      "link": "https://github.com/aritra/chat-app"
+    },
+    {
+      "title": "E-commerce",
+      "category": "Full-stack",
+      "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1000&q=80",
+      "link": "https://github.com/aritra/ecommerce"
+    },
+    {
+      "title": "Attendance Tracker",
+      "category": "MERN",
+      "image": "https://www.lystloc.com/blog/wp-content/uploads/2023/09/Why-Lystloc-is-the-best-employee-attendance-tracker-in-India.webp",
+      "link": "https://github.com/aritra/attendance-tracker"
+    }
+  ],
+
+  "contact": {
+    "instagram": "https://instagram.com/yourprofile",
+    "facebook": "https://facebook.com/yourprofile",
+    "gmail": "yourmail@gmail.com",
+    "linkedin": "https://linkedin.com/in/yourprofile"
+  },
+  "layoutVariant": "grid"
+}

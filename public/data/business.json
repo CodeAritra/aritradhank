@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "title": "Glow Salon",
+    "subtitle":"Trusted Excellence",
+    "description": "Premium salon services with an emphasis on hygiene & customer care.",
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=1200&q=80",
+    "cta": { "label": "Book Now", "href": "#contact" }
+  },
+  "about": {
+    "text": "Family-owned salon with 10+ years experience. Head stylists trained internationally.",
+    "image": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=1000&q=80"
+  },
+  "services": [
+    { "title": "Haircut & Styling", "desc": "Experienced stylists" },
+    { "title": "Spa & Treatments", "desc": "Relaxing experience" },
+    { "title": "Packages", "desc": "Group & wedding packages" }
+  ],
+  "work": [
+    {
+      "title": "Bridal Makeover",
+      "category": "Makeup",
+      "image": "https://i.pinimg.com/564x/44/da/33/44da33601e6b964040de09877784614e.jpg"
+    },
+    {
+      "title": "Salon Interior",
+      "category": "Design",
+      "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1000&q=80"
+    },
+    {
+      "title": "Styling Work",
+      "category": "Before/After",
+      "image": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1000&q=80"
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "John",
+      "text": "Great work! Very professional.",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "name": "Lisa",
+      "text": "Delivered on time and exceeded expectations.",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+    },
+    {
+      "name": "Mike",
+      "text": "Highly recommend for any web project.",
+      "avatar": "https://randomuser.me/api/portraits/men/65.jpg"
+    }
+  ],
+  "contact": {
+    "instagram": "https://instagram.com/yourprofile",
+    "facebook": "https://facebook.com/yourprofile",
+    "gmail": "yourmail@gmail.com"
+  },
+  "layoutVariant": "business"
+}
