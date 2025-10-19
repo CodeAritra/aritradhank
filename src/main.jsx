@@ -8,8 +8,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navigate to="/tech" replace />} />
-        <Route path="/:niche" element={<App />} />
+        <Route path="/" element={<App />} />
         <Route path="*" element={<div className="p-8">Not found</div>} />
       </Routes>
     </BrowserRouter>

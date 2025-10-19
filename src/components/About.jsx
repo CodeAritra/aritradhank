@@ -4,12 +4,12 @@ import Section from "./Section";
 
 export default function About({ data }) {
   return (
-    <Section id="about" className="py-16 ">
+    <Section id="about" className="py-16">
       <motion.div
         initial={{ scale: 0.8, opacity: 0 }}
-        whileInView={{scale: 1, opacity: 1 }}
+        whileInView={{ scale: 1, opacity: 1 }}
         transition={{ duration: 0.6 }}
-        className="card  shadow-xl max-w-5xl mx-auto flex flex-col lg:flex-row bg-base-100"
+        className="card bg-base-100 rounded-xl shadow-xl p-9 mx-auto flex flex-col lg:flex-row"
       >
         {/* Image */}
         <motion.figure

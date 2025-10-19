@@ -6,7 +6,7 @@ export default function Hero({ data }) {
   return (
     <Section
       id="hero"
-      className="py-12 sm:py-16 bg-base-100 rounded-2xl shadow-xl"
+      className="py-12 sm:py-16 bg-base-100 rounded-2xl shadow-xl max-h-[85vh] md:min-h-[75vh]"
     >
       <motion.div
         initial={{ scale: 0.8, opacity: 0 }}

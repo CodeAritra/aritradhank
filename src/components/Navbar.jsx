@@ -17,6 +17,7 @@ export default function Navbar({ data }) {
 
   // ✅ Dynamic links
   const links = [];
+  if (data.hero) links.push({ href: "hero", label: "Hero" });
   if (data.about) links.push({ href: "about", label: "About" });
   if (data.skills) links.push({ href: "skills", label: "Skills" });
   if (data.projects) links.push({ href: "projects", label: "Projects" });
@@ -40,7 +41,15 @@ export default function Navbar({ data }) {
       <nav className="navbar bg-base-100 sticky top-0 z-50 backdrop-blur border-b border-base-300">
         <div className="container mx-auto flex justify-between items-center px-4">
           {/* Brand / Name */}
-          <span className="text-xl font-bold">My Portfolio — Demo</span>
+          <span
+            className="text-xl font-bold cursor-pointer"
+            onClick={() => {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+              setDrawerOpen(false);
+            }}
+          >
+            {data.hero.title}
+          </span>
 
           {/* Desktop Menu */}
           <div className="hidden md:flex gap-6 items-center">
